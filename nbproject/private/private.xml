@@ -6,7 +6,10 @@
             <file>file:/Users/gustavoscipiao/NetBeansProjects/Mercearia/src/conf/persistence.xml</file>
             <file>file:/Users/gustavoscipiao/NetBeansProjects/Mercearia/web/WEB-INF/web.xml</file>
             <file>file:/Users/gustavoscipiao/NetBeansProjects/Mercearia/src/java/br/com/Model/Fornecedor.java</file>
+            <file>file:/Users/gustavoscipiao/NetBeansProjects/Mercearia/src/java/br/com/beans/ProdutoBean.java</file>
+            <file>file:/Users/gustavoscipiao/NetBeansProjects/Mercearia/src/java/br/com/Model/Produto.java</file>
             <file>file:/Users/gustavoscipiao/NetBeansProjects/Mercearia/web/index.xhtml</file>
+            <file>file:/Users/gustavoscipiao/NetBeansProjects/Mercearia/nbproject/build-impl.xml</file>
             <file>file:/Users/gustavoscipiao/NetBeansProjects/Mercearia/src/java/br/com/beans/FornecedorBean.java</file>
         </group>
     </open-files>

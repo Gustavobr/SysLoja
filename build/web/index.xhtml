@@ -19,21 +19,22 @@
                                 <b:formGroup tooltipDelayShow="3" tooltip="Cadastro de Fornecedor"/>
                                 <b:form title="Cadastro de Fornecedor"/>
                                 <b:label colMd="100" text="Razão Social"/><b:inputText id="txt_razao" required="true"
-                                                                                       required-message="Favor inserir razào" value="#{fornecedorBean.fornecedor.razao}"/>
+                                                                                       required-message="Favor inserir razào" value="#{fornecedorBean.razao}"/>
                                     <br/>
                                 <b:label colMd="100" text="CNPJ"/><b:inputText id="txt_cnpj" required="true"
-                                                                               required-message="Favor inserir cnpj" value="#{fornecedorBean.fornecedor.cnpj}"/>
+                                                                               required-message="Favor inserir cnpj" value="#{fornecedorBean.cnpj}"/>
                                   <br/>
                                   <h:form id="gravar_forne">
-                                      <b:commandButton value="Gravar" action="#{fornecedorBean.get_fornecedor(fornecedor)}"/>  
+                                      <b:commandButton value="Gravar"  action="#{FornecedorBean.get_fornecedor(fornecedor)}"/>  
                                   </h:form>
                             </p:dialog>
                             <p:dialog widgetVar="dlg1" maximizable="true" header="Cadastro de Produto" height="500" width="500">
                                 <b:formGroup tooltip="cadastro de produto">
                                     <b:form title="Cadastro de Produto" id="cad_form">
                                         <b:label colLg="100" text="Descricao">Descricao</b:label><b:inputText id="txt_descricao" required="true" requiredMessage=
-                                                                                                              "Favor inserir descricao"/>
+                                                                                                              "Favor inserir descricao" value="#{produtoBean.descricao}"/>
                                         <br/>
+                                        <p:commandButton value="Gravar" action="#{produtoBean.adicionarProduto()}"/>
 
                                     </b:form>
                                 </b:formGroup> 
